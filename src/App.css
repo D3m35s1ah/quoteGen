@@ -1,0 +1,53 @@
+.core {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: lightgray;
+}
+
+#quote-box{
+  padding: 20px 0;
+  background-color: #ffffff;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+
+#new-quote {
+  float: right;
+}
+
+#tweet-quote, #new-quote{
+    color: #ffffff;
+}
+
+.quote-field {
+    text-align: center;
+    width: 100%;
+    height: 150px;
+    padding: 0 20px;
+    margin: 15px 0;
+}
+
+.quote-field #textarea{
+  font-size: 2em;
+}
+
+.quote-field #author {
+  float: right;
+}
+
+.box-appear{
+    opacity : 0
+}
+
+.box-appear.appear-active{
+    opacity: 1;
+    -webkit-transition: opacity 0.5s ease-in;
+    -moz-transition: opacity 0.5s ease-in;
+    -ms-transition: opacity 0.5s ease-in;
+    -o-transition: opacity 0.5s ease-in;
+    transition: opacity 0.5s ease-in;
+}
